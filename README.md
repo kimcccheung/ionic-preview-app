@@ -21,6 +21,7 @@ This app accompanies the Ionic component documentation.
 5. Copy the www folder to `ionic-site/dist/preview-app/`: `cp -R www ../ionic-site/content/dist/preview-app`
 6. If the site doesn't update you may need to restart `gulp watch`
 
+Created by Starman, Kim.
 
 ### Updating ionic-site
 
