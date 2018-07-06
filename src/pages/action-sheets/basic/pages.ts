@@ -18,7 +18,7 @@ export class BasicPage {
       cssClass: 'action-sheets-basic-page',
       buttons: [
         {
-          text: 'Delete',
+          text: '移除',
           role: 'destructive',
           icon: !this.platform.is('ios') ? 'trash' : null,
           handler: () => {
@@ -26,28 +26,28 @@ export class BasicPage {
           }
         },
         {
-          text: 'Share',
+          text: '分享',
           icon: !this.platform.is('ios') ? 'share' : null,
           handler: () => {
             console.log('Share clicked');
           }
         },
         {
-          text: 'Play',
+          text: '播放',
           icon: !this.platform.is('ios') ? 'arrow-dropright-circle' : null,
           handler: () => {
             console.log('Play clicked');
           }
         },
         {
-          text: 'Favorite',
+          text: '我的最愛',
           icon: !this.platform.is('ios') ? 'heart-outline' : null,
           handler: () => {
             console.log('Favorite clicked');
           }
         },
         {
-          text: 'Cancel',
+          text: '取消',
           role: 'cancel', // will always sort to be on the bottom
           icon: !this.platform.is('ios') ? 'close' : null,
           handler: () => {
